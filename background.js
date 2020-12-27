@@ -8,12 +8,14 @@ let funcStr = '(' + func.toString() + ')()'
 
 let cssStr = `
 .app_content[class] {
-  max-width: 4000px;
+  max-width: 100%;
   margin-left: 40px;
-  margin-right: 20px;
+  margin-right: 50px;
 }
 .readerContent .app_content[class] {
   background-color: transparent;
+  max-width: 100%;
+
 }
 .readerTopBar[class] {
   position: static;
