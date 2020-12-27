@@ -8,7 +8,9 @@ let funcStr = '(' + func.toString() + ')()'
 
 let cssStr = `
 .app_content[class] {
-  max-width: 1600px;
+  max-width: 4000px;
+  margin-left: 40px;
+  margin-right: 20px;
 }
 .readerContent .app_content[class] {
   background-color: transparent;
@@ -17,7 +19,7 @@ let cssStr = `
   position: static;
 }
 .readerChapterContent[class] {
-  zoom: 1.25;
+  zoom: 1;
   margin: auto 0;
 }
 .readerChapterContent[class] span[class] {
